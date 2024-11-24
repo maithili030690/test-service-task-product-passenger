@@ -1,0 +1,12 @@
+<p>product-dashboard works!</p>
+
+
+<app-product-form></app-product-form>
+
+<!-- {{prodArr|json}} -->
+<hr>
+
+<app-product-card
+[productObj]="prod"
+*ngFor="let prod of prodArr"
+></app-product-card>
